@@ -15,7 +15,7 @@ public class AllTest {
         hPage.startHome();
         hPage.inputNormSearch("Moscow");
         hPage.inputNormalSearchButton();
-        hPage.inputSearch404("loli");
+        hPage.inputSearch404("Manul");
     }
 
     @Test
@@ -93,8 +93,8 @@ public class AllTest {
         hPage.addDepartureDate();
         hPage.addFlightNumber("1234");
         hPage.addReservationNumber("5254");
-        hPage.addLastName("Романченко");
-        hPage.addName("Алексей");
+        hPage.addLastName("Mangol");
+        hPage.addName("Sergey");
         hPage.addSearchManageReservationsPurchase();
     }
 
